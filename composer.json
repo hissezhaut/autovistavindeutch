@@ -1,0 +1,14 @@
+{
+    "name": "hissezhaut/autovista-vindeutch",
+    "description": "Package generated from http://vinsearch-ws.eurotaxglass.com/?wsdl using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "wsdltophp/packagebase": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Autovista\\VinDeutch\\": "./src/"
+        }
+    }
+}
